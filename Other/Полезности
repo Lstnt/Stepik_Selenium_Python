@@ -21,4 +21,11 @@ http://www-cs-students.stanford.edu/~blynn/gitmagic/intl/ru/index.html
 https://habr.com/company/intel/blog/344962/
 https://githowto.com/ru
 
-Настоятельно советуем самостоятельно прочитать про ветки (бранчи) и пулл-реквесты — это основной инструмент коллективной работы в Git.
+Настоятельно советуем самостоятельно прочитать про ветки (бранчи)
+и пулл-реквесты — это основной инструмент коллективной работы в Git.
+
+Дополнительные материалы про фикстуры, которые мы настоятельно советуем почитать, приведены ниже:
+
+https://habr.com/ru/company/yandex/blog/242795/
+
+https://docs.pytest.org/en/stable/fixture.html

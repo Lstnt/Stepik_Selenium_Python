@@ -5,9 +5,6 @@ from selenium.webdriver.chrome.options import Options as ChromeOptions
 def pytest_addoption(parser):
     parser.addoption('--language', action='store', default= "ru", help='Выберите язык: ru, en, es, fr и т.д.')
 
-
-
-
 @pytest.fixture(scope="function")
 def browser(request):
     language = request.config.getoption("--language")
@@ -20,8 +17,3 @@ def browser(request):
     print("\nquit browser..")
     browser.quit()
 
-@pytest.fixture(scope="session")
-def hidden():
-    with open("mail.txt", "r") as f:
-        lines = [line.strip() for line in f.readlines()]
-    return lines[0], lines[1]
